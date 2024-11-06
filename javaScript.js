@@ -84,6 +84,9 @@ const getRandomBotChoice = () => {
 const reset = () => {
     botSpan.innerHTML = 0;
     userSpan.innerHTML = 0;
+    res.innerHTML = "";
+    botImg.src = "./assets/stone.png";
+    userImg.src = "./assets/stone.png"
 }
 
 
