@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Joking Pow Game</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <h1>Rock Paper Scissors <br /><span class="game">GAME</span></h1>
+      <div class="first-div">
+        <span class="user-choice">
+          <img
+            src="./assets/stone.png"
+            alt="closed hand"
+            id="user-Img"
+          />
+        </span>
+        <span class="bot-choice movement">
+          <img src="./assets/stone.png" alt="closed hand" id="bot-img"/>
+        </span>
+      </div>
+      <p id="result"></p>
+      <div class="second-div">
+        <span class="img-choices">
+          <img
+            src="./assets/paper.png"
+            alt="hands palm making the paper mode"
+            id="paperChoice"
+          />
+          <p>Paper</p>
+        </span>
+        <span class="img-choices">
+          <img
+            src="./assets/stone.png"
+            alt="closed hands making the rock mode"
+            id="rockChoice"
+          />
+          <p>Rock</p>
+        </span>
+        <span class="img-choices">
+          <img
+            src="./assets/scissor.png"
+            alt="two fingers making a scissor mode"
+            id="scissorChoice"
+          />
+          <p>Scissors</p>
+        </span>
+      </div>
+      <p id="userPoints">Your points:<span id="userspan">0</span></p>
+      <p id="botPoints">Bot points:<span id="botspan">0</span></p>
+      <button id="resetButton">Reset Game</button>
+    </div>
+  </body>
+  <script src="./javaScript.js"></script>
+</html>

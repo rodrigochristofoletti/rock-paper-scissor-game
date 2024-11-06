@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #093179 35%, rgba(0,212,255,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div {
+    width: 500px;
+    border: 5px solid rgb(1, 10, 91);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-box-shadow: 13px 10px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 10px 16px -4px rgba(0,0,0,0.75);
+box-shadow: 13px 10px 16px -4px rgba(0,0,0,0.75);
+background-color: #f6f6f6;
+}
+
+h1 {
+    color: black;
+    padding: 25px;
+    font-size: 1.8rem;
+}
+
+.game {
+    color: #093179;
+    font-weight: 700;
+}
+
+.first-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    gap: 35px;
+}
+
+.user-choice {
+    transform: rotate(90deg);
+
+    img {
+        width: 170px;
+    }
+}
+
+.bot-choice {
+    transform: rotate(-90deg) rotateY(180deg);
+    
+
+    img {
+        width: 170px;
+    }
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #093179;
+    height: 35px;
+}
+
+.second-div {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.5;
+
+    img {
+        width: 75px;
+    }
+
+   p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+}
+
+#resetButton {
+    margin-top: 20px;
+    width: 150px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #093179 35%, rgb(0, 110, 255) 100%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#userPoints {
+    margin-top: 20px;
+    margin-bottom: 15px;
+   
+}
+
+.img-choices{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.img-choices:hover {
+    opacity: 1;
+}
+
+#resetButton:hover {
+background: rgba(0, 110, 255);
+}
