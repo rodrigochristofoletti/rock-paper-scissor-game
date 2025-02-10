@@ -6,6 +6,7 @@ const res = document.getElementById('result');
 const userImg = document.getElementById('user-Img');
 const botImg = document.getElementById('bot-img');
 const resetBtn = document.getElementById('resetButton');
+const darkModeBtn = document.getElementById('darkMode');
 
 const userSpan = document.getElementById('userspan');
 const botSpan = document.getElementById('botspan');
@@ -90,7 +91,10 @@ const reset = () => {
 }
 
 
+
+
 paper.addEventListener("click", paperPlayed);
 rock.addEventListener("click", rockPlayed);
 scissor.addEventListener("click", scissorPlayed);
 resetBtn.addEventListener("click", reset);
+
