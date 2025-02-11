@@ -14,6 +14,7 @@ body {
 }
 
 .main-div {
+    max-height: 90%;
     max-width: 500px;
     border: 5px solid rgb(1, 10, 91);
     border-radius: 15px;
