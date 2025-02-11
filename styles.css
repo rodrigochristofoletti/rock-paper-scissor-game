@@ -14,7 +14,7 @@ body {
 }
 
 .main-div {
-    width: 500px;
+    max-width: 500px;
     border: 5px solid rgb(1, 10, 91);
     border-radius: 15px;
     padding: 25px;
@@ -33,8 +33,9 @@ h1 {
 }
 
 .game {
-    color: #093179;
+    color: #a20fb6;
     font-weight: 700;
+    letter-spacing: 10px;
 }
 
 .first-div {
@@ -67,6 +68,8 @@ p {
     font-weight: bold;
     color: #093179;
     height: 35px;
+
+   
 }
 
 .second-div {
@@ -106,8 +109,8 @@ p {
 
 #userPoints {
     margin-top: 20px;
-    margin-bottom: 15px;
-   
+    margin-bottom: 5px;
+    color: #a20fb6;
 }
 
 .img-choices{
